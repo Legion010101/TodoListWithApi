@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+.App {
+    text-align: center;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+.white{
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}
+.dark{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+
+    padding-left: 10px;
+    padding-right: 30px;
+
+
+}
+.Tasks{
+    background-color: black;
+}
+.none{
+    display: none;
+}
+.logout{
+    display: flex;
+
+    align-items:center;
+
+}
+.login{
+    margin-top: 150px;
+}

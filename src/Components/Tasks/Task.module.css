@@ -1,0 +1,16 @@
+.TasksList{
+    background-color: black;
+    color: white;
+    min-height: 665px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.TasksList h1{
+    margin: 0;
+
+}
+.hide{
+    display: none;
+}
